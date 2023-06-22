@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <script src="https://kit.fontawesome.com/09ea9ed7f5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://www.green-paradise.id/Support/img/logo.jpg" sizes="300x300">
+    <title>Payment</title>
+</head>
+<body>
+    <div id="container">
+        <a href="index.html"><img src="https://www.green-paradise.id/Support/img/logo.jpg" alt=""></a>
+        
+        <div id="cart">
+            <div id="checkout">
+                <h2>Check out</h2>
+
+                <div id="userdata">
+                   <div id="Horizontalline">
+                    <h2 id="Personalinfo" style="color:  rgb(53,94,0)">Personalinfo</h2>
+        
+                   <i class="material-icons" id="line"> horizontal_rule </i>
+                   </div>
+                   <div id="Horizontalline">
+                    <h2 id="Delivery" style="color:  rgb(53,94,0)";>Delivery</h2>
+                   <i class="material-icons" id="line"> horizontal_rule </i>
+                   </div>
+                   <div id="Horizontalline">
+                    <h2 id="Payment" style="color:  rgb(53,94,0)">Payment</h2>
+                    <i class="material-icons" id="line"> horizontal_rule </i>
+                   </div>
+                   <div id="Horizontalline">
+                    <h2 id="Done">Done</h2>
+                   </div>
+                    
+                </div>
+                <div id="form">
+                   <div id="cred">
+                   <div id="input">
+                    <select name="payment-method" id="payment-method">
+                        <option value="" selected disabled hidden>Payment Method</option>
+                        <option value="paytm">Paytm</option>
+                        <option value="debitcard">Debit Card</option>
+                        <option value="creditcard">Credit Card</option>
+                      </select>
+                      <div id="arrow">
+                        <i class="fa fa-thin fa-angle-down fa-5xs" style="color: rgb(53,94,0);;"></i>
+                      </div>
+                     
+                        <button id="Next1">Continue</button>
+                    
+                   
+                   </div>
+                   </div>
+                </div>
+
+                
+               
+            </div>
+
+        <div id="cartitems">
+            <h2>Your order</h2>
+            <div id="items">
+
+                     
+            </div>
+            
+        </div>
+        </div>
+    </div>
+      <script src="payment.js"></script>
+</body>
+</html>

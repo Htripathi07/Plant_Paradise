@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment1.css">
+    <script src="https://kit.fontawesome.com/09ea9ed7f5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://www.green-paradise.id/Support/img/logo.jpg" sizes="300x300">
+    <title>Payment</title>
+</head>
+<body>
+
+  
+    <div id="container">
+        
+        <a href="index.html"><img src="https://www.green-paradise.id/Support/img/logo.jpg" alt=""></a>
+        
+        <div id="cart">
+            <div id="checkout">
+                <h2>Check out</h2>
+
+                <div id="userdata">
+                   <div id="Horizontalline">
+                    <h2 id="Personalinfo" style="color:  rgb(53,94,0)">Personalinfo</h2>
+        
+                   <i class="material-icons" id="line"> horizontal_rule </i>
+                   </div>
+                   <div id="Horizontalline">
+                    <h2 id="Delivery" style="color:  rgb(53,94,0)";>Delivery</h2>
+                   <i class="material-icons" id="line"> horizontal_rule </i>
+                   </div>
+                   <div id="Horizontalline">
+                    <h2 id="Payment" style="color:  rgb(53,94,0)">Payment</h2>
+                    <i class="material-icons" id="line"> horizontal_rule </i>
+                   </div>
+                   <div id="Horizontalline">
+                    <h2 id="Done">Done</h2>
+                   </div>
+                    
+                </div>
+                <div id="form">
+                   <div id="cred">
+                   <div id="input">
+
+                    <!-- <select name="payment-method" id="payment-method">
+                        <option value="" selected disabled hidden>Credi or debitcard</option>
+                        <option value="debitcard">Debit Card</option>
+                        <option value="creditcard">Credit Card</option>
+                      </select> -->
+                      
+
+                      <div id="carddetails">
+                        
+                        <input type="text" id="card-number" maxlength="19"  required placeholder="Card Number"  oninput="formatCardNumber(event)">
+                        <input type="text" id="expiration-month" maxlength="2"   placeholder="MM"   oninput="this.value = this.value.replace(/[^0-9]/g, '')" >
+                        <input type="text" id="expiration-year" maxlength="2"   placeholder="YY"  oninput="this.value = this.value.replace(/[^0-9]/g, '')" >
+                        <input type="password" id="cvv" maxlength="3" placeholder="cvv"   oninput="this.value = this.value.replace(/[^0-9]/g, '')" >
+                    
+                      </div>
+
+                      
+                    
+                   </div>
+                   <button id="Prev2">GO Back</button>
+                   <button id="Next2">Continue</button>
+                   </div>
+                </div>
+
+                
+               
+            </div>
+
+        <div id="cartitems">
+            <h2>Yourorder</h2>
+            <div id="items">
+
+                                  
+            </div>
+            
+        </div>
+        </div>
+    </div>
+
+     
+</body>
+<script src="payment1.js"></script>
+</html>
